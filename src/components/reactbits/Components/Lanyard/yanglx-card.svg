@@ -1,0 +1,85 @@
+<svg width="2048" height="1536" viewBox="0 0 2048 1536" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="frontBg" x1="80" y1="80" x2="840" y2="1160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172033"/>
+      <stop offset="0.48" stop-color="#080C16"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="backBg" x1="1120" y1="80" x2="1880" y2="1160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="0.52" stop-color="#050816"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="96" y1="140" x2="832" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="0.52" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#FF50AA"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 220) rotate(48) scale(760 620)">
+      <stop stop-color="#22D3EE" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(760 980) rotate(132) scale(760 620)">
+      <stop stop-color="#A78BFA" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#FFFFFF" stroke-opacity="0.055" stroke-width="2"/>
+    </pattern>
+    <style>
+      .mono {
+        font-family: "JetBrains Mono", "Menlo", "Consolas", monospace;
+      }
+    </style>
+  </defs>
+
+  <rect width="2048" height="1536" fill="#020617"/>
+
+  <!-- Front face: left side of the texture atlas. -->
+  <rect x="0" y="0" width="928" height="1240" fill="url(#frontBg)"/>
+  <rect x="0" y="0" width="928" height="1240" fill="url(#glowA)"/>
+  <rect x="0" y="0" width="928" height="1240" fill="url(#glowB)"/>
+  <rect x="64" y="64" width="800" height="1112" rx="86" fill="url(#grid)" opacity="0.95"/>
+  <rect x="64" y="64" width="800" height="1112" rx="86" stroke="#67E8F9" stroke-opacity="0.3" stroke-width="4"/>
+
+  <text x="112" y="180" class="mono" fill="#67E8F9" font-size="34" font-weight="700" letter-spacing="8">YANGLX-WEB</text>
+  <text x="112" y="430" class="mono" fill="#F8FAFC" font-size="118" font-weight="700" letter-spacing="1">YangLx</text>
+  <text x="116" y="510" class="mono" fill="#CBD5E1" font-size="38" font-weight="700" letter-spacing="5">DEVELOPER PORTFOLIO</text>
+
+  <rect x="112" y="610" width="704" height="2" fill="url(#accent)"/>
+
+  <text x="112" y="718" class="mono" fill="#94A3B8" font-size="28" font-weight="700" letter-spacing="5">EMAIL</text>
+  <text x="112" y="772" class="mono" fill="#F8FAFC" font-size="34" font-weight="700">1335642863@qq.com</text>
+
+  <text x="112" y="880" class="mono" fill="#94A3B8" font-size="28" font-weight="700" letter-spacing="5">WECHAT</text>
+  <text x="112" y="934" class="mono" fill="#F8FAFC" font-size="36" font-weight="700">LXiang_Taurus</text>
+
+  <text x="112" y="1042" class="mono" fill="#94A3B8" font-size="28" font-weight="700" letter-spacing="5">PHONE</text>
+  <text x="112" y="1096" class="mono" fill="#F8FAFC" font-size="36" font-weight="700">18007375784</text>
+
+  <!-- Thin card edge / spacer region used by the model UVs. -->
+  <rect x="928" y="0" width="156" height="1240" fill="#020617"/>
+  <rect x="972" y="64" width="68" height="1112" rx="34" fill="url(#accent)" opacity="0.32"/>
+
+  <!-- Back face: right side of the texture atlas. -->
+  <rect x="1084" y="0" width="856" height="1240" fill="url(#backBg)"/>
+  <rect x="1084" y="0" width="856" height="1240" fill="url(#glowA)" opacity="0.8"/>
+  <rect x="1084" y="0" width="856" height="1240" fill="url(#glowB)" opacity="0.8"/>
+  <rect x="1128" y="64" width="768" height="1112" rx="86" stroke="#A78BFA" stroke-opacity="0.32" stroke-width="4"/>
+  <rect x="1128" y="64" width="768" height="1112" rx="86" fill="url(#grid)" opacity="0.8"/>
+
+  <text x="1512" y="230" text-anchor="middle" class="mono" fill="#67E8F9" font-size="34" font-weight="700" letter-spacing="8">CONTACT</text>
+  <text x="1512" y="350" text-anchor="middle" class="mono" fill="#F8FAFC" font-size="80" font-weight="700">YangLx</text>
+  <text x="1512" y="430" text-anchor="middle" class="mono" fill="#CBD5E1" font-size="30" font-weight="700" letter-spacing="5">BUILDING WITH CARE</text>
+
+  <rect x="1248" y="532" width="528" height="92" rx="28" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <text x="1512" y="590" text-anchor="middle" class="mono" fill="#F8FAFC" font-size="30" font-weight="700">1335642863@qq.com</text>
+
+  <rect x="1248" y="672" width="528" height="92" rx="28" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <text x="1512" y="730" text-anchor="middle" class="mono" fill="#F8FAFC" font-size="34" font-weight="700">LXiang_Taurus</text>
+
+  <rect x="1248" y="812" width="528" height="92" rx="28" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <text x="1512" y="870" text-anchor="middle" class="mono" fill="#F8FAFC" font-size="34" font-weight="700">18007375784</text>
+
+  <text x="1512" y="1050" text-anchor="middle" class="mono" fill="#94A3B8" font-size="28" font-weight="700" letter-spacing="5">GITHUB TO BE ADDED</text>
+</svg>
