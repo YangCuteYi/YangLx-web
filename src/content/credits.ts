@@ -57,14 +57,13 @@ export const credits: Record<CreditCategory, CreditEntry[]> = {
 };
 
 export interface ThanksEntry {
-  key: 'louie' | 'gpt' | 'claude';
+  key: 'gpt' | 'claude';
   url?: string;
   /** Optional accent color for visual variety. */
   accent: string;
 }
 
 export const specialThanks: ThanksEntry[] = [
-  { key: 'louie', url: 'https://louie1.com', accent: '#C6FF3E' },
   { key: 'gpt', url: 'https://openai.com', accent: '#22D3EE' },
   { key: 'claude', url: 'https://www.anthropic.com/claude-code', accent: '#A78BFA' }
 ];

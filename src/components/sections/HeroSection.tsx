@@ -18,7 +18,7 @@ export const HeroSection = () => {
         </p>
 
         <BlurText
-          text="Hi, I'm YangLx"
+          text="你好, 我是刘翔"
           delay={120}
           animateBy="letters"
           direction="top"
@@ -31,7 +31,7 @@ export const HeroSection = () => {
 
         <div className="mt-12">
           <a
-            href="mailto:1335642863@qq.com"
+            href="https://mail.qq.com/" target="_blank" rel="noreferrer"
             className="group relative inline-flex items-center gap-3 overflow-hidden rounded-full border border-white/15 bg-white/5 px-6 py-3 text-sm font-bold text-text backdrop-blur-md transition-all hover:border-accent/60 hover:bg-white/10 hover:-translate-y-0.5"
           >
             <span className="absolute inset-0 -z-0 bg-accent-gradient opacity-0 transition-opacity duration-300 group-hover:opacity-30" />

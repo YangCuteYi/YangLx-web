@@ -13,9 +13,9 @@ const resources = {
         contact: 'contact'
       },
       hero: {
-        greeting: 'hello, world',
-        cta: '发送邮件联系',
-        name: "Hi, I'm YangLx."
+        greeting: 'Java Backend Developer',
+        cta: '通过 QQ 邮箱联系',
+        name: '刘翔 · Java 后端开发'
       },
       section: {
         about: 'About',
@@ -26,11 +26,11 @@ const resources = {
         credits: 'Credits'
       },
       services: {
-        intro: '测试一下做的个人介绍页面',
-        inquire: '聊聊定制 →',
+        intro: '',
+        inquire: '联系我 →',
         visit: '访问网站',
-        outro: '想做的都可以聊 · 邮件直达 1335642863@qq.com',
-        cta: '聊聊定制'
+        outro: '期待 Java 后端开发相关机会 · 邮件直达 1335642863@qq.com',
+        cta: '联系我'
       },
       project: {
         viewDetails: '查看详情',
@@ -42,20 +42,20 @@ const resources = {
         screenshotComingSoon: '截图待补充'
       },
       contact: {
-        title: "What's Next?",
-        desc: '测试一下做的个人介绍页面',
-        button: 'Say Hello',
-        role: 'Developer · Melbourne',
+        title: '联系我',
+        desc: '如果我的经历与岗位要求匹配，欢迎通过邮箱、电话或微信联系我。我会认真准备每一次面试，也乐于进一步介绍项目经历、技术栈和学习方式。',
+        button: '通过 QQ 邮箱联系',
+        role: 'Java 后端开发工程师 · 湖南',
         dragHint: '试着拖动这张卡片'
       },
       credits: {
         title: '致谢',
         subtitle: 'Credits & Acknowledgments',
-        intro: '这个网站站在很多开源项目的肩膀上。下面这些工具、库和资源,是它能跑起来、看起来还像样的真正原因。再三感谢。',
+        intro: '这个网站基于开源前端生态构建，用于展示我的个人简历、求职信息和联系方式。',
         license: '所有列出的依赖都遵循各自的开源协议(多数为 MIT / Apache 2.0 / SIL OFL)。',
         backHome: '← 返回主页',
         specialThanksTitle: '特别感谢',
-        specialThanksIntro: '在这趟开发过程里,有几位 / 几个的帮助远超工具范畴 —— 没有他们,这个网站不会以现在的样子存在。',
+        specialThanksIntro: '感谢这些工具和开源项目帮助我更高效地完成个人主页建设。',
         categories: {
           foundations: '框架与构建',
           routing: '路由 与 国际化',
@@ -65,9 +65,8 @@ const resources = {
           fonts: '字体'
         },
         thanks: {
-          louie: { name: 'Louie', role: '朋友 · louie1.com', note: '是他一直在隔壁折腾自己的小站,把我也卷进来一起做。' },
-          gpt: { name: 'GPT · OpenAI', role: 'Pair programmer', note: '复杂逻辑的拆解、SVG 排版的反复打磨,大量来自和它的对话。' },
-          claude: { name: 'Claude · Anthropic', role: 'Claude Code', note: '本仓库的脚手架、React 组件层和大部分文件,直接由 Claude Code 写出。' }
+          gpt: { name: 'GPT · OpenAI', role: 'AI assistant', note: '协助梳理页面结构、文案表达和前端实现。' },
+          claude: { name: 'Claude · Anthropic', role: 'Claude Code', note: '协助完成部分组件和交互实现。' }
         }
       },
       dock: {
@@ -75,7 +74,7 @@ const resources = {
         bg: '切换背景',
         top: '回到顶部'
       },
-      footer: 'Built with ♥ in Melbourne'
+      footer: 'Java Backend Developer Resume'
     }
   },
   en: {
@@ -88,9 +87,9 @@ const resources = {
         contact: 'contact'
       },
       hero: {
-        greeting: 'hello, world',
-        cta: 'Say Hello',
-        name: "Hi, I'm YangLx."
+        greeting: 'Java Backend Developer',
+        cta: 'Contact via QQ Mail',
+        name: 'Liu Xiang · Java Backend Developer'
       },
       section: {
         about: 'About',
@@ -101,11 +100,11 @@ const resources = {
         credits: 'Credits'
       },
       services: {
-        intro: 'A handful of side projects I run for fun · click a row for details · everything runs on-device',
-        inquire: 'Chat about it →',
+        intro: '',
+        inquire: 'Contact me →',
         visit: 'Visit site',
-        outro: 'Open to bespoke work · drop a line at 1335642863@qq.com',
-        cta: 'Chat about it'
+        outro: 'Open to Java backend opportunities · 1335642863@qq.com',
+        cta: 'Contact me'
       },
       project: {
         viewDetails: 'View Details',
@@ -117,20 +116,20 @@ const resources = {
         screenshotComingSoon: 'Screenshot coming soon'
       },
       contact: {
-        title: "What's Next?",
-        desc: "While I'm mostly focused on independent development, my inbox is always open — for collaborations, tech chats, or just a hello.",
-        button: 'Say Hello',
-        role: 'Developer · Melbourne',
+        title: 'Contact',
+        desc: 'If my background matches your hiring needs, feel free to contact me by email, phone, or WeChat. I am ready to discuss my project experience, backend skills, and learning approach in more detail.',
+        button: 'Contact via QQ Mail',
+        role: 'Java Backend Developer Candidate · Hunan',
         dragHint: 'try dragging the card'
       },
       credits: {
         title: 'Credits',
         subtitle: 'Credits & Acknowledgments',
-        intro: 'This site stands on the shoulders of a lot of open-source work. The libraries, tools and assets below are the real reason it runs — and looks the way it does. Thank you, sincerely.',
+        intro: 'This resume site is built on the open-source frontend ecosystem to present my resume, job-search profile, and contact information.',
         license: 'All listed dependencies remain under their original open-source licenses (mostly MIT / Apache 2.0 / SIL OFL).',
         backHome: '← Back to home',
         specialThanksTitle: 'Special Thanks',
-        specialThanksIntro: "A few names that went far beyond \"tooling\" during this build — without them this site wouldn't look like this.",
+        specialThanksIntro: 'Thanks to these tools and open-source projects for helping me build this personal resume site more efficiently.',
         categories: {
           foundations: 'Foundations & Build',
           routing: 'Routing & i18n',
@@ -140,9 +139,8 @@ const resources = {
           fonts: 'Typography'
         },
         thanks: {
-          louie: { name: 'Louie', role: 'Friend · louie1.com', note: 'For tinkering on his own site next door and pulling me along for the ride.' },
-          gpt: { name: 'GPT · OpenAI', role: 'Pair programmer', note: 'Breaking down hairy logic and refining the SVG card design through many back-and-forths.' },
-          claude: { name: 'Claude · Anthropic', role: 'Claude Code', note: 'Scaffolded the repo, wrote most of the React components and shipped the bulk of the files via Claude Code.' }
+          gpt: { name: 'GPT · OpenAI', role: 'AI assistant', note: 'Helped refine page structure, copywriting, and frontend implementation.' },
+          claude: { name: 'Claude · Anthropic', role: 'Claude Code', note: 'Helped implement parts of the components and interactions.' }
         }
       },
       dock: {
@@ -150,7 +148,7 @@ const resources = {
         bg: 'Switch background',
         top: 'Back to top'
       },
-      footer: 'Built with ♥ in Melbourne'
+      footer: 'Java Backend Developer Resume'
     }
   }
 };

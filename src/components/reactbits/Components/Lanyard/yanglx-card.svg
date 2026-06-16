@@ -43,7 +43,7 @@
   <rect x="64" y="64" width="800" height="1112" rx="86" stroke="#67E8F9" stroke-opacity="0.3" stroke-width="4"/>
 
   <text x="112" y="180" class="mono" fill="#67E8F9" font-size="34" font-weight="700" letter-spacing="8">YANGLX-WEB</text>
-  <text x="112" y="430" class="mono" fill="#F8FAFC" font-size="118" font-weight="700" letter-spacing="1">YangLx</text>
+  <text x="112" y="430" class="mono" fill="#F8FAFC" font-size="118" font-weight="700" letter-spacing="1">Liu Xiang</text>
   <text x="116" y="510" class="mono" fill="#CBD5E1" font-size="38" font-weight="700" letter-spacing="5">DEVELOPER PORTFOLIO</text>
 
   <rect x="112" y="610" width="704" height="2" fill="url(#accent)"/>
@@ -69,7 +69,7 @@
   <rect x="1128" y="64" width="768" height="1112" rx="86" fill="url(#grid)" opacity="0.8"/>
 
   <text x="1512" y="230" text-anchor="middle" class="mono" fill="#67E8F9" font-size="34" font-weight="700" letter-spacing="8">CONTACT</text>
-  <text x="1512" y="350" text-anchor="middle" class="mono" fill="#F8FAFC" font-size="80" font-weight="700">YangLx</text>
+  <text x="1512" y="350" text-anchor="middle" class="mono" fill="#F8FAFC" font-size="80" font-weight="700">Liu Xiang</text>
   <text x="1512" y="430" text-anchor="middle" class="mono" fill="#CBD5E1" font-size="30" font-weight="700" letter-spacing="5">BUILDING WITH CARE</text>
 
   <rect x="1248" y="532" width="528" height="92" rx="28" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.12"/>

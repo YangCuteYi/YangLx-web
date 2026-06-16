@@ -59,7 +59,9 @@ const CONTACT_METHODS: ContactMethod[] = [
   },
   {
     label: 'GitHub',
-    value: '待补充',
+    value: 'github.com/YangCuteYi',
+    href: 'https://github.com/YangCuteYi',
+    external: true,
     icon: <GitHubIcon />,
     gradient: 'linear-gradient(135deg, #22D3EE 0%, #0EA5E9 100%)',
     glow: 'rgba(34, 211, 238, 0.35)'
@@ -118,7 +120,7 @@ export const ContactSection = () => {
           <div>
             <p className="font-mono text-xs uppercase tracking-[0.25em] text-accent">{t('contact.title')}</p>
             <h3 className="mt-3 bg-accent-gradient bg-clip-text text-5xl font-bold leading-[1.05] tracking-tight text-transparent md:text-6xl">
-              YangLx
+              Liu Xiang
             </h3>
             <p className="mt-2 text-sm uppercase tracking-[0.2em] text-muted">{t('contact.role')}</p>
           </div>
@@ -133,7 +135,7 @@ export const ContactSection = () => {
 
           <div>
             <a
-              href="mailto:1335642863@qq.com"
+              href="https://mail.qq.com/" target="_blank" rel="noreferrer"
               className="group inline-flex items-center gap-3 rounded-full border border-white/15 bg-white/5 px-6 py-3 text-sm font-bold text-text backdrop-blur-md transition-all hover:-translate-y-0.5 hover:border-accent/60 hover:bg-white/10"
             >
               <EmailIcon />

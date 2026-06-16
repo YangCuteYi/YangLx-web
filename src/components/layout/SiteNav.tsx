@@ -18,6 +18,7 @@ export const SiteNav = () => {
 
   const items = [
     { label: 'Home', ariaLabel: 'Home', link: '/#hero' },
+    { label: 'Resume', ariaLabel: 'Resume', link: '/#resume' },
     ...(serviceLayout.length > 0
       ? [{ label: t('section.services'), ariaLabel: t('section.services'), link: '/#services' }]
       : []),
