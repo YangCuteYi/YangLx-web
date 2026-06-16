@@ -3,6 +3,8 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { StaggeredMenu } from '../reactbits/Components/StaggeredMenu/StaggeredMenu';
 import { useBackground } from '../BackgroundSwitcher';
 import { assetPath } from '../../utils/assetPath';
+import { projects } from '../../content/projects';
+import { serviceLayout } from '../../content/services';
 
 const ACCENT = '#A78BFA';
 
@@ -16,8 +18,12 @@ export const SiteNav = () => {
 
   const items = [
     { label: 'Home', ariaLabel: 'Home', link: '/#hero' },
-    { label: t('section.services'), ariaLabel: t('section.services'), link: '/#services' },
-    { label: t('section.projects'), ariaLabel: t('section.projects'), link: '/#projects' },
+    ...(serviceLayout.length > 0
+      ? [{ label: t('section.services'), ariaLabel: t('section.services'), link: '/#services' }]
+      : []),
+    ...(projects.length > 0
+      ? [{ label: t('section.projects'), ariaLabel: t('section.projects'), link: '/#projects' }]
+      : []),
     { label: t('section.contact'), ariaLabel: t('section.contact'), link: '/#contact' },
     { label: t('section.credits'), ariaLabel: t('section.credits'), link: '/credits' }
   ];

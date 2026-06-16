@@ -213,6 +213,8 @@ export const ServicesSection = () => {
   const location = useLocation();
   const locale = (i18n.language.startsWith('zh') ? 'zh' : 'en') as Locale;
 
+  if (serviceLayout.length === 0) return null;
+
   // A 整蛊 / prank product is hidden entirely when the UI is in English.
   const isHidden = (s: ServiceItem) => locale === 'en' && Boolean(s.prank);
 

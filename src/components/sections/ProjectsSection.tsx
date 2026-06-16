@@ -11,6 +11,8 @@ export const ProjectsSection = () => {
   const { t, i18n } = useTranslation();
   const locale = (i18n.language.startsWith('zh') ? 'zh' : 'en') as Locale;
 
+  if (projects.length === 0) return null;
+
   return (
     <section id="projects" className="mx-auto max-w-6xl px-6 py-16 md:px-12 md:py-20 scroll-mt-28">
       <SectionLabel number="">
